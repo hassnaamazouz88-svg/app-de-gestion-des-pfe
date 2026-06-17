@@ -1,0 +1,13 @@
+{
+    "name": "gestion-pfe/app",
+    "description": "Application de gestion des soutenances PFE",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "phpoffice/phpspreadsheet": "^2.0",
+        "dompdf/dompdf": "^2.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

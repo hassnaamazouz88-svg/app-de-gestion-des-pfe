@@ -1,0 +1,14 @@
+﻿Options -Indexes
+
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# Base auto-détectée par Apache selon le dossier du projet (ex. /gestion_pfekhaw/)
+
+# Ne pas réécrire les fichiers et dossiers existants (assets, outputs…)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Tout rediriger vers index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
+
