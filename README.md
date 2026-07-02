@@ -12,16 +12,16 @@
 
 ```bash
 # 1. Décompresser le projet dans le dossier htdocs de XAMPP
-#    Résultat attendu : htdocs/gestion_pfe_v2/
+#    Résultat attendu : htdocs/gestion_pfe/
 
 # 2. Installer les dépendances
-cd htdocs/gestion_pfe_v2
+cd htdocs/gestion_pfe
 composer install
 ```
 
 Ouvrir ensuite dans le navigateur :
 
-http://localhost/gestion_pfe_v2
+http://localhost/gestion_pfe
 
 > **Attention :** les données ne persistent que le temps de la session PHP. Fermer le navigateur ou redémarrer Apache efface toutes les données importées.
 
